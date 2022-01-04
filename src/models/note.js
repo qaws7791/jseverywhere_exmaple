@@ -16,7 +16,7 @@ const noteSchema = new mongoose.Schema(
         },
         favoriteCount: {
             type: Number,
-            dafault: 0
+            default: 0
         },
         favoritedBy: [{
             type : mongoose.Schema.Types.ObjectId,
